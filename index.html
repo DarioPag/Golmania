@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLMANIA - Aventura Futbolística</title>
+    <meta name="description" content="Vive la experiencia única de un joven futbolista que sueña con asistir a la final del Mundial. Colecciona los pedazos del ticket dorado en países llenos de historia futbolística.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/golmania-logo.png" alt="GOLMANIA">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="objetivos.html">Objetivos</a></li>
+                <li><a href="interfaz.html">Interfaz</a></li>
+                <li><a href="moodboard.html">Estilo Visual</a></li>
+                <li><a href="mecanicas.html">Mecánicas</a></li>
+                <li><a href="tematica.html">Temática</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="mb-8">
+                <img src="images/golmania-logo.png" alt="GOLMANIA Logo" style="height: 8rem; width: auto; margin: 0 auto 1.5rem;">
+            </div>
+            <h1 class="text-6xl font-black text-foreground mb-6">
+                ¡Únete a la Aventura!
+            </h1>
+            <p class="text-xl text-muted-foreground mb-8 leading-relaxed" style="max-width: 48rem; margin: 0 auto;">
+                Vive la experiencia única de un joven futbolista que sueña con asistir a la final del Mundial. Colecciona
+                los pedazos del ticket dorado en países llenos de historia futbolística.
+            </p>
+            <div class="flex flex-col gap-4 justify-center" style="align-items: center;">
+                <a href="#" class="btn btn-primary btn-lg">Jugar Ahora</a>
+                <a href="objetivos.html" class="btn btn-outline btn-lg">Ver Objetivos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Story Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid lg-grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-foreground mb-6">
+                        Historia del Videojuego
+                    </h2>
+                    <div class="mb-6">
+                        <p class="text-lg text-muted-foreground leading-relaxed mb-4">
+                            El protagonista es un joven y apasionado futbolista que sueña con la experiencia única de asistir a la
+                            final del Mundial. Un día, un misterioso mensajero le entrega un
+                            <span class="font-semibold text-accent">ticket dorado</span>, una reliquia que concede acceso al
+                            gran evento.
+                        </p>
+                        <p class="text-lg text-muted-foreground leading-relaxed">
+                            Pero justo cuando está por tomarlo, un fuerte viento mágico lo rompe en pedazos y los esparce por
+                            distintos países del mundo, cada uno con una rica historia futbolística.
+                        </p>
+                    </div>
+                    <div class="mt-6">
+                        <a href="tematica.html" class="btn btn-outline">
+                            🌍 Conoce más sobre la temática
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/game-story.png" alt="Historia del juego GOLMANIA" class="img-responsive img-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protagonist Section -->
+    <section class="section section-muted">
+        <div class="container">
+            <div class="grid lg-grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="images/protagonist.png" alt="Protagonista de GOLMANIA" class="img-responsive img-shadow">
+                </div>
+                <div>
+                    <div class="badge badge-secondary mb-4">
+                        👥 Protagonista
+                    </div>
+                    <h2 class="text-4xl font-bold text-foreground mb-6">
+                        Un Soñador Determinado
+                    </h2>
+                    <p class="text-lg text-muted-foreground leading-relaxed mb-6">
+                        Un joven apasionado por el fútbol, ágil y con un talento natural. No es un superhéroe, sino un soñador
+                        determinado que está dispuesto a recorrer el mundo para cumplir su sueño de asistir a la final del
+                        Mundial.
+                    </p>
+                    <div class="flex gap-4 mb-6" style="flex-wrap: wrap;">
+                        <span class="badge badge-outline">Apasionado</span>
+                        <span class="badge badge-outline">Ágil</span>
+                        <span class="badge badge-outline">Determinado</span>
+                        <span class="badge badge-outline">Talentoso</span>
+                    </div>
+                    <a href="mecanicas.html" class="btn btn-outline">
+                        ⚙️ Descubre las mecánicas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Locations -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-foreground mb-6">
+                    Explora Países Increíbles
+                </h2>
+                <p class="text-xl text-muted-foreground leading-relaxed" style="max-width: 48rem; margin: 0 auto;">
+                    Cada destino ofrece una experiencia única llena de cultura, historia y desafíos futbolísticos.
+                </p>
+            </div>
+
+            <div class="grid md-grid-cols-2 gap-8">
+                <!-- Mexico -->
+                <div class="card group transition-all">
+                    <div style="position: relative;">
+                        <img src="images/mexico-plaza.png" alt="México - Plaza Colorida" 
+                             style="width: 100%; height: 16rem; object-fit: cover;" 
+                             class="group-hover-scale transition-all">
+                        <div style="position: absolute; top: 1rem; left: 1rem;">
+                            <span class="badge">
+                                📍 Disponible Ahora
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="text-2xl font-bold text-foreground mb-4">México - Plaza Colorida</h3>
+                        <p class="text-muted-foreground leading-relaxed">
+                            Un nivel abierto y vibrante. El jugador explorará una plaza llena de puestos de comida, papel picado,
+                            y una cancha de barrio rodeada de grafitis y murales.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Neo-Japan -->
+                <div class="card group transition-all">
+                    <div style="position: relative;">
+                        <img src="images/neo-japan.png" alt="Neo-Japón" 
+                             style="width: 100%; height: 16rem; object-fit: cover;" 
+                             class="group-hover-scale transition-all">
+                        <div style="position: absolute; top: 1rem; left: 1rem;">
+                            <span class="badge badge-accent">
+                                🌍 Próximamente
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="text-2xl font-bold text-foreground mb-4">Neo-Japón</h3>
+                        <p class="text-muted-foreground leading-relaxed">
+                            Un nivel de impactantes contrastes que fusiona el Japón de neón y rascacielos con la serenidad de sus
+                            templos y jardines ancestrales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section section-muted">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-foreground mb-6">
+                    Características del Juego
+                </h2>
+            </div>
+
+            <div class="grid md-grid-cols-3 gap-8">
+                <div class="card text-center p-8">
+                    <div style="width: 4rem; height: 4rem; background-color: rgba(16, 185, 129, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                        🎫
+                    </div>
+                    <h3 class="text-xl font-bold text-foreground mb-4">Colecciona Pedazos del Ticket</h3>
+                    <p class="text-muted-foreground leading-relaxed">
+                        Encuentra y reúne todos los fragmentos del ticket dorado dispersos por el mundo.
+                    </p>
+                </div>
+
+                <div class="card text-center p-8">
+                    <div style="width: 4rem; height: 4rem; background-color: rgba(6, 182, 212, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                        🌍
+                    </div>
+                    <h3 class="text-xl font-bold text-foreground mb-4">Explora Países Únicos</h3>
+                    <p class="text-muted-foreground leading-relaxed">
+                        Viaja por diferentes países, cada uno con su propia cultura y desafíos únicos.
+                    </p>
+                </div>
+
+                <div class="card text-center p-8">
+                    <div style="width: 4rem; height: 4rem; background-color: rgba(6, 182, 212, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                        👥
+                    </div>
+                    <h3 class="text-xl font-bold text-foreground mb-4">Historia Emotiva</h3>
+                    <p class="text-muted-foreground leading-relaxed">
+                        Vive una aventura llena de pasión por el fútbol y la determinación de un soñador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Documentation Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-foreground mb-6">
+                    Documentación del Juego
+                </h2>
+                <p class="text-xl text-muted-foreground" style="max-width: 48rem; margin: 0 auto;">
+                    Explora todos los aspectos de GOLMANIA en detalle
+                </p>
+            </div>
+
+            <div class="grid md-grid-cols-2 lg-grid-cols-4 gap-6">
+                <a href="objetivos.html" class="card hover-scale transition-all" style="text-decoration: none; color: inherit;">
+                    <div class="card-content text-center">
+                        <div style="width: 3rem; height: 3rem; background-color: rgba(249, 115, 22, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                            🎯
+                        </div>
+                        <h3 class="text-lg font-bold text-foreground mb-2">Objetivos</h3>
+                        <p class="text-muted-foreground" style="font-size: 0.875rem;">Descubre las metas principales del juego</p>
+                    </div>
+                </a>
+
+                <a href="interfaz.html" class="card hover-scale transition-all" style="text-decoration: none; color: inherit;">
+                    <div class="card-content text-center">
+                        <div style="width: 3rem; height: 3rem; background-color: rgba(34, 197, 94, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                            💻
+                        </div>
+                        <h3 class="text-lg font-bold text-foreground mb-2">Interfaz</h3>
+                        <p class="text-muted-foreground" style="font-size: 0.875rem;">Explora el diseño del menú principal</p>
+                    </div>
+                </a>
+
+                <a href="moodboard.html" class="card hover-scale transition-all" style="text-decoration: none; color: inherit;">
+                    <div class="card-content text-center">
+                        <div style="width: 3rem; height: 3rem; background-color: rgba(168, 85, 247, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                            🎨
+                        </div>
+                        <h3 class="text-lg font-bold text-foreground mb-2">Estilo Visual</h3>
+                        <p class="text-muted-foreground" style="font-size: 0.875rem;">Conoce las inspiraciones visuales</p>
+                    </div>
+                </a>
+
+                <a href="mecanicas.html" class="card hover-scale transition-all" style="text-decoration: none; color: inherit;">
+                    <div class="card-content text-center">
+                        <div style="width: 3rem; height: 3rem; background-color: rgba(59, 130, 246, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                            ⚙️
+                        </div>
+                        <h3 class="text-lg font-bold text-foreground mb-2">Mecánicas</h3>
+                        <p class="text-muted-foreground" style="font-size: 0.875rem;">Aprende cómo se juega GOLMANIA</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section section-muted">
+        <div class="container text-center" style="max-width: 64rem;">
+            <h2 class="text-4xl font-bold text-foreground mb-6">¿Listo para la Aventura?</h2>
+            <p class="text-xl text-muted-foreground mb-8">
+                Únete a la búsqueda del ticket dorado y vive la experiencia futbolística más emocionante.
+            </p>
+            <div class="flex flex-col gap-4 justify-center" style="align-items: center;">
+                <a href="#" class="btn btn-primary btn-lg">Descargar Juego</a>
+                <a href="tematica.html" class="btn btn-outline btn-lg">Conocer Temática</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-direction: column; gap: 1.5rem;">
+                <div>
+                    <img src="images/golmania-logo.png" alt="GOLMANIA" style="height: 3rem; width: auto;">
+                </div>
+                <div class="text-center">
+                    <p class="text-muted-foreground">© 2024 GOLMANIA. Todos los derechos reservados.</p>
+                    <p class="text-muted-foreground mt-2" style="font-size: 0.875rem;">Creado con pasión por el fútbol y la aventura.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
